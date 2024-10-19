@@ -184,7 +184,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-4 bg-white border-t border-gray-300">
+      <div className="p-4  bg-white border-t border-gray-300">
         <div className="flex items-center">
           {pdfFileName && (
             <span className="mr-4 text-[#243642] bg-[#E2F1E7] rounded-md p-2">
