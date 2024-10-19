@@ -184,16 +184,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-4  bg-white border-t border-gray-300">
+      <div className="p-2  bg-white border-t border-gray-300">
         <div className="flex items-center">
           {pdfFileName && (
-            <span className="mr-4 text-[#243642] bg-[#E2F1E7] rounded-md p-2">
+            <span className="mr-4 text-[#243642] bg-[#E2F1E7] max-w-10 md:max-w-24 overflow-hidden rounded-md p-2">
               {pdfFileName}
             </span>
           )}
 
-          <label htmlFor="pdf-upload" className="cursor-pointer flex items-center bg-[#387478] text-white py-2 px-4 rounded-lg hover:bg-[#243642] mr-2">
-            <img src="/pdf.png" alt="Upload PDF" className="w-5 h-5 mr-2" />
+          <label htmlFor="pdf-upload" className="cursor-pointer flex items-center bg-[#387478] text-white py-2 px-4   rounded-lg hover:bg-[#243642] ">
+            <img src="/pdf.png" alt="Upload PDF" className="w-5 h-5 mr-1" />
             PDF
           </label>
           <input
@@ -208,7 +208,7 @@ export default function Home() {
             type="text"
             onChange={handleInputChange}
             value={inputValue}
-            className="border rounded-lg w-full p-2 mr-2"
+            className=" border-2 rounded-lg w-full border-gray-400  p-2 mr-2"
             placeholder="Type your question here..."
           />
 
